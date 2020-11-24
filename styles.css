@@ -1,0 +1,44 @@
+body {
+    /*background:  url("background.jpg");*/ /*link to a background image, which you also replicate with a url*/
+    background-image: url("background.jpg");
+    background-size: cover; /* Image fits/covers page*/
+    background-repeat: no-repeat; /*Image doesn't repeat*/
+    background-attachment: fixed; /*Image does not move as you scroll*/
+    background-position: top; /*Positions Image*/
+    text-align: center; /*aligns text*/
+    color: white; /*text color*/
+    font-family: 'Avenir', sans-serif; /*sans-serif included incase Browser doesn't support first option*/
+}
+
+h1 {
+    font-size: 100px; 
+}
+
+h2 {
+    font-size: 40px; 
+}
+
+/*center the header container vertically on the page*/
+.container-fluid {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/*styling for icons*/
+.icon {
+    color: white; 
+    margin: 10px 5px;
+    font-size: 3em !important;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
